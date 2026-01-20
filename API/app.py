@@ -42,3 +42,7 @@ def get_cursos():
 
 
 
+@app.get("/superheroesBogota")
+def get_superheroes_marvel():
+    rows = ["Ñero-Man", "Bosa Man", "SoachaMan"]
+    return rows
